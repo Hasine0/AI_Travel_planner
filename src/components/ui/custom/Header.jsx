@@ -1,8 +1,13 @@
 import React from 'react'
-
+import { Button } from "@/components/ui/button";
 function Header() {
   return (
-    <div>Header</div>
+    <div className='p-3 shadow-sm flex justify-between items-center px-5'>
+      <img src="/logo.svg" alt="Logo" className="h-8" />
+      <div className="p-4">
+              <Button>Sign In</Button>
+      </div>
+    </div>
   )
 }
 
